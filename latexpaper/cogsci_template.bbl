@@ -1,0 +1,357 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Bekolay%
+\ \protect \BOthers {.}}{%
+Bekolay%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2014}}%
+}]{%
+bekolay2014nengo}
+\APACinsertmetastar {%
+bekolay2014nengo}%
+\begin{APACrefauthors}%
+Bekolay, T.%
+, Bergstra, J.%
+, Hunsberger, E.%
+, DeWolf, T.%
+, Stewart, T\BPBI C.%
+, Rasmussen, D.%
+\BDBL {}Eliasmith, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Nengo: a {P}ython tool for building large-scale
+  functional brain models} {Nengo: a {P}ython tool for building large-scale
+  functional brain models}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Frontiers in neuroinformatics}{7}{}{48}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Dempster%
+, Laird%
+\BCBL {}\ \BBA {} Rubin%
+}{%
+Dempster%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1977}}%
+}]{%
+dempster1977maximum}
+\APACinsertmetastar {%
+dempster1977maximum}%
+\begin{APACrefauthors}%
+Dempster, A\BPBI P.%
+, Laird, N\BPBI M.%
+\BCBL {}\ \BBA {} Rubin, D\BPBI B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1977}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Maximum likelihood from incomplete data via the {EM}
+  algorithm} {Maximum likelihood from incomplete data via the {EM}
+  algorithm}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of the royal statistical society. Series B
+  (methodological)}{}{}{1--38}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Doya%
+}{%
+Doya%
+}{%
+{\protect \APACyear {2007}}%
+}]{%
+doya2007bayesian}
+\APACinsertmetastar {%
+doya2007bayesian}%
+\begin{APACrefauthors}%
+Doya, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2007}.
+\newblock
+\APACrefbtitle {Bayesian brain: Probabilistic approaches to neural coding}
+  {Bayesian brain: Probabilistic approaches to neural coding}.
+\newblock
+\APACaddressPublisher{}{MIT press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Eliasmith%
+}{%
+Eliasmith%
+}{%
+{\protect \APACyear {2013}}%
+}]{%
+eliasmith2013build}
+\APACinsertmetastar {%
+eliasmith2013build}%
+\begin{APACrefauthors}%
+Eliasmith, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2013}.
+\newblock
+\APACrefbtitle {How to build a brain: A neural architecture for biological
+  cognition} {How to build a brain: A neural architecture for biological
+  cognition}.
+\newblock
+\APACaddressPublisher{}{Oxford University Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Eliasmith%
+\ \BBA {} Anderson%
+}{%
+Eliasmith%
+\ \BBA {} Anderson%
+}{%
+{\protect \APACyear {2003}}%
+}]{%
+eliasmith2003neural}
+\APACinsertmetastar {%
+eliasmith2003neural}%
+\begin{APACrefauthors}%
+Eliasmith, C.%
+\BCBT {}\ \BBA {} Anderson, C\BPBI H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2003}.
+\newblock
+\APACrefbtitle {Neural engineering: Computation, representation, and dynamics
+  in neurobiological systems} {Neural engineering: Computation, representation,
+  and dynamics in neurobiological systems}.
+\newblock
+\APACaddressPublisher{}{MIT press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Eliasmith%
+\ \BBA {} Martens%
+}{%
+Eliasmith%
+\ \BBA {} Martens%
+}{%
+{\protect \APACyear {2011}}%
+}]{%
+eliasmith2011normalization}
+\APACinsertmetastar {%
+eliasmith2011normalization}%
+\begin{APACrefauthors}%
+Eliasmith, C.%
+\BCBT {}\ \BBA {} Martens, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Normalization for probabilistic inference with neurons}
+  {Normalization for probabilistic inference with neurons}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Biological cybernetics}{104}{4}{251--262}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Gosmann%
+}{%
+Gosmann%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+gosmann2015}
+\APACinsertmetastar {%
+gosmann2015}%
+\begin{APACrefauthors}%
+Gosmann, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+\APACrefbtitle {Precise multiplications with the {NEF}} {Precise
+  multiplications with the {NEF}}\ [Technical Report].
+\newblock
+\APACaddressPublisher{University of Waterloo, Waterloo, Ontario, Canada}{}.
+\newblock
+\begin{APACrefURL} \url{http://dx.doi.org/10.5281/zenodo.35680}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Griffiths%
+, Chater%
+, Norris%
+\BCBL {}\ \BBA {} Pouget%
+}{%
+Griffiths%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2012}}%
+}]{%
+griffiths2012bayesians}
+\APACinsertmetastar {%
+griffiths2012bayesians}%
+\begin{APACrefauthors}%
+Griffiths, T\BPBI L.%
+, Chater, N.%
+, Norris, D.%
+\BCBL {}\ \BBA {} Pouget, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {How the {B}ayesians got their beliefs (and what those
+  beliefs actually are): comment on Bowers and Davis (2012).} {How the
+  {B}ayesians got their beliefs (and what those beliefs actually are): comment
+  on bowers and davis (2012).}{\BBCQ}
+\newblock
+
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Griffiths%
+\ \BBA {} Tenenbaum%
+}{%
+Griffiths%
+\ \BBA {} Tenenbaum%
+}{%
+{\protect \APACyear {2006}}%
+}]{%
+griffiths2006optimal}
+\APACinsertmetastar {%
+griffiths2006optimal}%
+\begin{APACrefauthors}%
+Griffiths, T\BPBI L.%
+\BCBT {}\ \BBA {} Tenenbaum, J\BPBI B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2006}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Optimal predictions in everyday cognition} {Optimal
+  predictions in everyday cognition}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Psychological science}{17}{9}{767--773}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Jacobs%
+\ \BBA {} Kruschke%
+}{%
+Jacobs%
+\ \BBA {} Kruschke%
+}{%
+{\protect \APACyear {2011}}%
+}]{%
+jacobs2011bayesian}
+\APACinsertmetastar {%
+jacobs2011bayesian}%
+\begin{APACrefauthors}%
+Jacobs, R\BPBI A.%
+\BCBT {}\ \BBA {} Kruschke, J\BPBI K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Bayesian learning theory applied to human cognition}
+  {Bayesian learning theory applied to human cognition}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Wiley Interdisciplinary Reviews: Cognitive
+  Science}{2}{1}{8--21}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ma%
+, Beck%
+, Latham%
+\BCBL {}\ \BBA {} Pouget%
+}{%
+Ma%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2006}}%
+}]{%
+ma2006bayesian}
+\APACinsertmetastar {%
+ma2006bayesian}%
+\begin{APACrefauthors}%
+Ma, W\BPBI J.%
+, Beck, J\BPBI M.%
+, Latham, P\BPBI E.%
+\BCBL {}\ \BBA {} Pouget, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2006}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Bayesian inference with probabilistic population codes}
+  {Bayesian inference with probabilistic population codes}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Nature neuroscience}{9}{11}{1432--1438}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Schwartz%
+, Kettner%
+\BCBL {}\ \BBA {} Georgopoulos%
+}{%
+Schwartz%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1988}}%
+}]{%
+schwartz1988primate}
+\APACinsertmetastar {%
+schwartz1988primate}%
+\begin{APACrefauthors}%
+Schwartz, A\BPBI B.%
+, Kettner, R\BPBI E.%
+\BCBL {}\ \BBA {} Georgopoulos, A\BPBI P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1988}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Primate motor cortex and free arm movements to visual
+  targets in three-dimensional space. {I.} {R}elations between single cell
+  discharge and direction of movement} {Primate motor cortex and free arm
+  movements to visual targets in three-dimensional space. {I.} {R}elations
+  between single cell discharge and direction of movement}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{The Journal of Neuroscience}{8}{8}{2913--2927}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Xu%
+\ \BBA {} Tenenbaum%
+}{%
+Xu%
+\ \BBA {} Tenenbaum%
+}{%
+{\protect \APACyear {2007}}%
+}]{%
+xu2007word}
+\APACinsertmetastar {%
+xu2007word}%
+\begin{APACrefauthors}%
+Xu, F.%
+\BCBT {}\ \BBA {} Tenenbaum, J\BPBI B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Word learning as {B}ayesian inference.} {Word learning
+  as {B}ayesian inference.}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Psychological review}{114}{2}{245}.
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}
