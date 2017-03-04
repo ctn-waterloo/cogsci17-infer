@@ -39,13 +39,12 @@ def posterior(x, skew, loc, scale):
     return post
 
 
-try: 
-  	ages = np.linspace(start=1, stop=100, num=100)
-  	data = {}
-  	for x in ages:
-  
+try:
+    ages = np.linspace(start=1, stop=100, num=100, dtype=np.int32)
+    data = {}
+    for x in ages:
         # define sub-spaces
-    		space = nengo.FunctionSpace(
+        space = nengo.FunctionSpace(
                 nengo.dists.Function(skew_gauss,
                                  skew=nengo.dists.Uniform(skew-1, skew+2), 
                               loc=nengo.dists.Uniform(loc-1,loc+2), 
@@ -98,7 +97,7 @@ try:
             probe_func2 = nengo.Probe(ens2, synapse=0.03)
             
             # elementwise multiplication
-            posterior = nengo.Ensemble(label="Posterior", n_neurons=200, dimensions=post_space.n_basis,
+            post = nengo.Ensemble(label="Posterior", n_neurons=200, dimensions=post_space.n_basis,
                                      encoders=post_space.project(post_space_raw),
                                      eval_points=post_space.project(post_space_raw),
                                     )
@@ -106,8 +105,8 @@ try:
             
             nengo.Connection(ens, product.A)
             nengo.Connection(ens2, product.B)
-            nengo.Connection(product.output, posterior)
-            probe_func3 = nengo.Probe(posterior, synapse=0.03)
+            nengo.Connection(product.output, post)
+            probe_func3 = nengo.Probe(post, synapse=0.03)
             
             # normalization
             def normalize(a):
@@ -123,7 +122,7 @@ try:
                                        encoders=post_space_raw,
                                      eval_points=post_space_raw)
             
-            nengo.Connection(posterior, norm_post, function=normalize)
+            nengo.Connection(post, norm_post, function=normalize)
             probe_func4 = nengo.Probe(norm_post, synapse=0.03)
             
             # prediction
@@ -146,10 +145,11 @@ try:
         sim = nengo.Simulator(model)
         sim.run(0.5)
 
-      	node_prediction = sim.data[probe_func5][-1]
-      	data[x] = [0, node_prediction]
+        node_prediction = sim.data[probe_func5][-1][0]
+        data[x] = [0, node_prediction]
+
 except:
-	print "SS - Exception occured", e	
+	print "SS - Exception occured"	
 
 finally:
 	fname = 'neural_predictions.p'
