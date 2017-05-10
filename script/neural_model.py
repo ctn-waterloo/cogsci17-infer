@@ -134,7 +134,7 @@ for x in ages:
                                  encoders=post_space.project(post_space_raw),
                                  eval_points=post_space.project(post_space_raw),
                                  neuron_type = nengo.Direct())
-        product = nengo.networks.Product(n_neurons=50*2, dimensions=post_space.n_basis, input_magnitude=1)
+        product = nengo.networks.Product(n_neurons=100*2, dimensions=post_space.n_basis, input_magnitude=1)
         
         nengo.Connection(ens, product.A)
         nengo.Connection(ens2, product.B)
