@@ -12,12 +12,12 @@ In this paper, we present a spiking neural model of life span inference. Through
 - See `latexpaper` for uncompiled LaTeX paper.
 
 ### Running the Model
-- Run the  `script/generate_data.py' from the terminal. It will inturn call neural_model.py to generate specified number of samples.
+- Run the  `script/generate_data.py` from the terminal. It will inturn call `script/neural_model.py` to generate specified number of samples.
 - Output would be the same number of pickle files.
 
 ### Results
-- The notebook `results/results-plots.ipynb` uses the pickle files in the results folder and results/data folder to plot results
-- K-S-dissimilarity.csv shows the dissimilarity calculations for Kolmogorov-Smirnov (K-S) test 
+- The notebook `results/results-plots.ipynb` uses the pickle files in the `results` folder and `results/data` folder to plot results.
+- K-S-dissimilarity.csv shows the dissimilarity calculations for Kolmogorov-Smirnov (K-S) test. 
 
 
 ### Some Dependencies
