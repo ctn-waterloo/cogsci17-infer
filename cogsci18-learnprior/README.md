@@ -15,15 +15,31 @@ In this paper, we present a spiking neural model of learning priors for a lifesp
 - See `latexpaper` for uncompiled LaTeX paper.
 
 ### Running the Model
-- Run the  `model/script.py` from the terminal in order to generate simulation results for specified number of trials and training observations (arguments to the script). 
+- Run `model/script.py` from the terminal in order to generate simulation results for specified number of trials and training observations (arguments to the script). 
 - Output would a pickle file corresponding to each trial that can then be probed at different points to get data corresponding to different number of training observations.
 
 
-### Some Dependencies
-- Python
-- Scipy
-- Nengo
-- Numpy
-- Seaborn
-- Jupyter
-- Matplotlib
+## Dependencies
+
+Version numbers state the versions used to generate the results. Newer and older versions might work as well, but have not been tested.
+
+### General dependencies
+- [Python 2.7.9](https://www.python.org/)
+- [Nengo 2.6.1](https://github.com/nengo/nengo)
+- [Numpy 1.12.1](http://www.numpy.org/)
+- [Scipy 0.18.1](https://www.scipy.org/)
+
+
+### Jupyter notebook
+- [Jupyter](http://jupyter.org/)
+  - jupyter 1.0.0
+  - jupyter-client 4.2.2
+  - jupyter-core 4.1.0
+  - jupyter-console 4.1.1
+- [Matplotlib 1.4.3](http://matplotlib.org/)
+- [Seaborn 0.7.1](http://seaborn.pydata.org/)
+
+
+### Visualization
+- [Nengo GUI 0.2.1](https://github.com/nengo/nengo_gui)
+
