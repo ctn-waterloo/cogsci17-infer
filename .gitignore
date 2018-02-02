@@ -16,5 +16,4 @@ psy-work
 *.fdb_latexmk
 *.fls
 *.log
-*.pdf
 *.synctex.gz
