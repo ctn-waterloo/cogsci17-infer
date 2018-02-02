@@ -1,7 +1,7 @@
 
 # A Spiking Neural Model for Learning Priors
 
-In this paper, we present a spiking neural model of learning priors for a lifespan inference task. Through this model, we extend our previous work on the biological plausibility of performing Bayesian computations in the brain. Specifically, we address the question of how humans might be generating the priors needed for this inference. We propose neural mechanisms that may be involved in continuous learning and updating of priors and may be applicable in many aspects of higher-level cognition. We show that the model is generalizable and is able to converge to the near optimal priors with very few training samples. 
+In this paper, we present a spiking neural model of learning priors for a life span inference task. Through this model, we extend our previous work on the biological plausibility of performing Bayesian computations in the brain. Specifically, we address the question of how humans might be generating the priors needed for this inference. We propose neural mechanisms for continuous learning and updating of priors - cognitive processes that are critical for many aspects of higher-level cognition. The model is generalizable to many different psychological tasks and we show that it is able to converge to the near optimal priors with very few training examples. 
 
 
 
